@@ -142,6 +142,17 @@ body {
 				margin-bottom: 0;
 				font-size: 1em;
 				line-height: 1.2em;
+				strong{
+					font-size: 2rem;
+				}
+			}
+			.whatsapp{
+				background-image: url(../images/whatsapp.png);
+				background-repeat: no-repeat;
+				right: 0;
+				background-position-x: left;
+				background-position-y: center;
+				//padding: 0.85em 2em 0.85em 1em;
 			}
 		}
 	}
