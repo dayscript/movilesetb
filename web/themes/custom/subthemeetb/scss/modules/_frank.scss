@@ -151,16 +151,16 @@ body {
 				&:before {
 					content: "";
 					background-image: url(../images/whatsapp.png);
-					width: 30px;
-					height: 30px;
-					top: 0;
-					left: 0;
+					background-size: contain;
+					width: 35px;
+					height: 35px;
+					left: 30px;
+					bottom: 0;
 					position: absolute;
 				}
-/* 				background-repeat: no-repeat;
-				right: 0;
-				background-position-x: left;
-				background-position-y: center; */
+			}
+			.minutos{
+				padding: 1rem 0;
 			}
 		}
 	}
