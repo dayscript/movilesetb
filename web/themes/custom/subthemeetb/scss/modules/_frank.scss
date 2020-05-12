@@ -1,0 +1,202 @@
+body {
+	background: #FFF !important;
+}
+
+.block-views-block-slider-home-block-1, .block-views-block-slider-home-block-2 {
+	> div {
+		> .row {
+			max-width: 100% !important;
+			.views-field-field-image {
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+.planes {
+	.columns {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	.plans-card {
+		box-shadow: none;
+		border: solid 5px $white;
+		border-radius: 10px 10px 5px 5px;
+		min-height: 420px;
+		.speed {
+			position: relative;
+			padding: 1rem 1rem 0;
+			background: #eb673c !important;
+			border-radius: 5px 5px 0 0;
+			line-height: 1.2em;
+			margin-bottom: 2.5rem;
+			&:after {
+				position: absolute;
+			    bottom: -20px;
+			    width: 0px;
+			    height: 0px;
+			    border-right: 12rem solid transparent;
+			    border-top: 20px solid #eb673c;
+			    border-left: 11rem solid transparent;
+			    content: "";
+			    left: 0;
+			    right: 0;
+			}
+			span {
+				position: relative;
+			    //display: inline-block;
+			    //margin: 0 auto;
+			    //transform: translateX(-30px);
+			    font-size: 4rem;
+			    //line-height: 1em;
+			    &:after {
+					position: absolute;
+				    top: 0.8rem;
+				    right: -1.5rem;
+				    content: "GB";
+				    background: $blue;
+				    width: 30px;
+				    height: 30px;
+				    font-size: 0.8rem;
+				    line-height: 1em;
+				    padding: 10px 0;
+				    border-radius: 20px;
+				    font-weight: 400;
+				}
+			}
+		}
+		.price {
+			font-size: 2rem;
+			line-height: 1.2em;
+			color: $white;
+		}
+		.type{
+			//background: url("../images/fibra-icon.jpg") no-repeat left center;
+		}
+		.discount {
+			//background: url("../images/discount.jpg") no-repeat left center;
+		}
+		.promo {
+			//background: url("../images/promo.jpg") no-repeat left center;
+		}
+		.estrato {
+			font-size: 0.9rem;
+			line-height: 1em;
+			color: $blue;
+			font-weight: 600;
+			margin: 0.5rem 2rem 1rem;
+			padding-bottom: 0.5rem;
+			//border-bottom: solid 1px #C0C0C0;
+		}
+		.type, .discount, .promo {
+		    text-align: center;
+		    min-height: 25px;
+		    color: $white;
+		    font-weight: 400;
+		    font-size: 1rem;
+		    line-height: 1.2em;
+		    //max-width: 78%;
+		    //margin: 0 auto;
+		    //padding-left: 2.5rem;
+		    //margin-bottom: 0.8rem;
+		}
+		.etiqueta {
+			margin: 0.5rem 2rem 1rem;
+			position: relative;
+			font-size: 0.9rem;
+			span {
+				position: relative;
+				display: inline-block;
+				background: $blue;
+				padding: 0 1rem;
+				z-index: 100;
+				color: $white;
+				font-weight: 600;
+			}
+			&:before {
+				position: absolute;
+				top: 50%;
+				left: 0;
+				right: 0;
+				height: 1px;
+				background: #D1D1D1;
+				width: 100%;
+				content: "";
+			}
+		}
+		.obten {
+			max-width: 80%;
+			margin: 0 auto;
+			color: $white;
+			table, tbody, tr, td {
+				border: none;
+			}
+			td {
+				padding: 0;
+				width: 50%;
+				vertical-align: middle;
+			}
+			p {
+				margin-bottom: 0;
+				font-size: 1em;
+				line-height: 1.2em;
+			}
+		}
+	}
+}
+.planes.negocios {
+	.price {
+		margin-bottom: 1rem;
+	}
+}
+
+#block-tellamamos {
+	max-width: 420px;
+	position: fixed;
+	top: 7rem;
+	h2 {
+	    font-size: 2.5rem;
+	    line-height: 1em;
+	}
+}
+
+#webform-submission-te-llamamos-block-content-6-add-form label {
+    color: #fefefe;
+    margin: 1rem 0 2rem;
+    font-size: 1.2rem;
+}
+
+#webform-submission-dejanos-tus-datos-para-llamarte-block-content-2-add-form input {
+	border-radius: 4px;
+	padding: 1.5rem 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+	#block-tellamamos {
+		max-width: 420px !important;
+		position: relative !important;
+		top: 0 !important;
+	}
+
+	#block-navegacionprincipal {
+		.menu {
+			li {
+				width: 50%;
+				a {
+					padding: 0.8rem 3.3rem;
+				}
+			}
+		}
+	}
+	#block-tellamamos-2 {
+		margin: 0 auto 2rem;
+	}
+	// .planes {
+	// 	.plans-card {
+	// 		max-width: 
+	// 	}
+	// }
+
+}
