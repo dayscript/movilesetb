@@ -147,12 +147,19 @@ body {
 				}
 			}
 			.whatsapp{
-				background-image: url(../images/whatsapp.png);
-				background-repeat: no-repeat;
+				&:before {
+					content: "";
+					background-image: url(../images/whatsapp.png);
+					width: 30px;
+					height: 30px;
+					top: 0;
+					left: 0;
+					position: absolute;
+				}
+/* 				background-repeat: no-repeat;
 				right: 0;
 				background-position-x: left;
-				background-position-y: center;
-				//padding: 0.85em 2em 0.85em 1em;
+				background-position-y: center; */
 			}
 		}
 	}
