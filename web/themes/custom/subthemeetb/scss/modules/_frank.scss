@@ -147,6 +147,7 @@ body {
 				}
 			}
 			.whatsapp{
+				position: relative;
 				&:before {
 					content: "";
 					background-image: url(../images/whatsapp.png);
