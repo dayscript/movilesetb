@@ -545,10 +545,10 @@ padding-right: 0.5rem;
 			font-size: 1.1rem;
 		}
 		.views-field-field-texto-mas-planes {
-			position: absolute;
-		    bottom: 3.5rem;
-		    left: 0;
-		    right: 0;
+			//position: absolute;
+		    //bottom: 3.5rem;
+		    //left: 0;
+		    //right: 0;
 		}
 	}
 	.pager {
@@ -688,7 +688,7 @@ padding-right: 0.5rem;
 				background: $blue;
 				h2, p {
 					color: $white;
-					//margin-bottom: 3rem;
+					margin-bottom: 3rem;
 				}
 				label {
 					color: $white;
