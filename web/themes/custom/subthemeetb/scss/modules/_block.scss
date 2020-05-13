@@ -45,9 +45,12 @@ padding-right: 0.5rem;
 		display: inline-flex;
 		align-items: center;
 		> h2{
-			color: $white;
-			font-size: 1.4rem;
-			margin: 0 0 0 1.3rem;
+			@media only screen and (min-width: 640px){
+				color: $white;
+				font-size: 1.4rem;
+				margin: 0 0 0 1.3rem;
+			}
+			display: none;
 		}
 	}
 }
