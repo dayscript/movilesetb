@@ -157,6 +157,9 @@ body {
 					left: 30px;
 					bottom: 0;
 					position: absolute;
+					@media only screen and (max-width: 600px){
+						left: 25px;
+					}
 				}
 			}
 			.minutos{
